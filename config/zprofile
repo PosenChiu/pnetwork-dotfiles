@@ -1,0 +1,8 @@
+[[ -r "$HOME/.zshrc" ]] && . "$HOME/.zshrc"
+
+[[ -r "/opt/homebrew/bin/brew" ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
+[[ -r "/opt/homebrew/opt/asdf/libexec/asdf.sh" ]] && . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
+
+# Intel
+[[ -r "/usr/local/bin/brew" ]] && eval "$(/usr/local/bin/brew shellenv)"
+[[ -r "/usr/local/opt/asdf/libexec/asdf.sh" ]] && . "/usr/local/opt/asdf/libexec/asdf.sh"
